@@ -14,6 +14,14 @@
 		AE5BE1661FE99AA0009C3E4E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE5BE1641FE99AA0009C3E4E /* LaunchScreen.storyboard */; };
 		AE5BE1711FE99AA0009C3E4E /* RestaurantTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5BE1701FE99AA0009C3E4E /* RestaurantTests.swift */; };
 		AE5BE17C1FE99AA0009C3E4E /* RestaurantUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5BE17B1FE99AA0009C3E4E /* RestaurantUITests.swift */; };
+		AE5BE18A1FE99C87009C3E4E /* CategoryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5BE1891FE99C87009C3E4E /* CategoryTableViewController.swift */; };
+		AE5BE18C1FE99CAF009C3E4E /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5BE18B1FE99CAF009C3E4E /* MenuTableViewController.swift */; };
+		AE5BE18E1FE99CBB009C3E4E /* OrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5BE18D1FE99CBB009C3E4E /* OrderTableViewController.swift */; };
+		AE5BE1901FE99DD6009C3E4E /* MenuDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5BE18F1FE99DD6009C3E4E /* MenuDetailViewController.swift */; };
+		AE5BE1921FE99E32009C3E4E /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5BE1911FE99E32009C3E4E /* MenuItem.swift */; };
+		AE5BE1941FE9A169009C3E4E /* IntermediaryModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5BE1931FE9A169009C3E4E /* IntermediaryModels.swift */; };
+		AE5BE1961FE9A6F0009C3E4E /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5BE1951FE9A6F0009C3E4E /* MenuController.swift */; };
+		AE5BE1981FE9DF7D009C3E4E /* OrderConfirmationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5BE1971FE9DF7D009C3E4E /* OrderConfirmationViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		AE5BE1771FE99AA0009C3E4E /* RestaurantUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RestaurantUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5BE17B1FE99AA0009C3E4E /* RestaurantUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantUITests.swift; sourceTree = "<group>"; };
 		AE5BE17D1FE99AA0009C3E4E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE5BE1891FE99C87009C3E4E /* CategoryTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryTableViewController.swift; sourceTree = "<group>"; };
+		AE5BE18B1FE99CAF009C3E4E /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		AE5BE18D1FE99CBB009C3E4E /* OrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderTableViewController.swift; sourceTree = "<group>"; };
+		AE5BE18F1FE99DD6009C3E4E /* MenuDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuDetailViewController.swift; sourceTree = "<group>"; };
+		AE5BE1911FE99E32009C3E4E /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		AE5BE1931FE9A169009C3E4E /* IntermediaryModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntermediaryModels.swift; sourceTree = "<group>"; };
+		AE5BE1951FE9A6F0009C3E4E /* MenuController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
+		AE5BE1971FE9DF7D009C3E4E /* OrderConfirmationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderConfirmationViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +93,9 @@
 		AE5BE14F1FE99AA0009C3E4E = {
 			isa = PBXGroup;
 			children = (
+				AE5BE1911FE99E32009C3E4E /* MenuItem.swift */,
+				AE5BE1931FE9A169009C3E4E /* IntermediaryModels.swift */,
+				AE5BE1951FE9A6F0009C3E4E /* MenuController.swift */,
 				AE5BE15A1FE99AA0009C3E4E /* Restaurant */,
 				AE5BE16F1FE99AA0009C3E4E /* RestaurantTests */,
 				AE5BE17A1FE99AA0009C3E4E /* RestaurantUITests */,
@@ -100,6 +119,11 @@
 				AE5BE15B1FE99AA0009C3E4E /* AppDelegate.swift */,
 				AE5BE15D1FE99AA0009C3E4E /* ViewController.swift */,
 				AE5BE15F1FE99AA0009C3E4E /* Main.storyboard */,
+				AE5BE1971FE9DF7D009C3E4E /* OrderConfirmationViewController.swift */,
+				AE5BE18F1FE99DD6009C3E4E /* MenuDetailViewController.swift */,
+				AE5BE1891FE99C87009C3E4E /* CategoryTableViewController.swift */,
+				AE5BE18B1FE99CAF009C3E4E /* MenuTableViewController.swift */,
+				AE5BE18D1FE99CBB009C3E4E /* OrderTableViewController.swift */,
 				AE5BE1621FE99AA0009C3E4E /* Assets.xcassets */,
 				AE5BE1641FE99AA0009C3E4E /* LaunchScreen.storyboard */,
 				AE5BE1671FE99AA0009C3E4E /* Info.plist */,
@@ -259,8 +283,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE5BE1981FE9DF7D009C3E4E /* OrderConfirmationViewController.swift in Sources */,
+				AE5BE1921FE99E32009C3E4E /* MenuItem.swift in Sources */,
+				AE5BE1961FE9A6F0009C3E4E /* MenuController.swift in Sources */,
+				AE5BE18C1FE99CAF009C3E4E /* MenuTableViewController.swift in Sources */,
+				AE5BE18E1FE99CBB009C3E4E /* OrderTableViewController.swift in Sources */,
 				AE5BE15E1FE99AA0009C3E4E /* ViewController.swift in Sources */,
+				AE5BE1941FE9A169009C3E4E /* IntermediaryModels.swift in Sources */,
+				AE5BE1901FE99DD6009C3E4E /* MenuDetailViewController.swift in Sources */,
 				AE5BE15C1FE99AA0009C3E4E /* AppDelegate.swift in Sources */,
+				AE5BE18A1FE99C87009C3E4E /* CategoryTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
